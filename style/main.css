@@ -1,0 +1,142 @@
+@font-face {
+  font-family: CircularStd;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/CircularStd-Medium.otf");
+}
+@font-face {
+  font-family: CircularStd;
+  font-weight: 600;
+  font-style: normal;
+  src: url("./fonts/CircularStd-Bold.otf");
+}
+@font-face {
+  font-family: CircularStd;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./fonts/CircularStd-Black.otf");
+}
+@font-face {
+  font-family: CircularStd;
+  font-weight: 300;
+  font-style: normal;
+  src: url("./fonts/CircularStd-Book.otf");
+}
+
+html {
+  font-family: CircularStd;
+  width: 100%;
+}
+
+.body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 0rem;
+  font-size: 3.5rem;
+  color: #0702D1;
+}
+
+h2 {
+  padding-top: 1.5rem !important;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: #0702D1;
+}
+
+h3 {
+  padding-top: 1.25rem !important;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+li {
+  font-weight: 300;
+  padding: 0.5rem;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  color: #0702D1; /* bullet color */
+}
+
+strong {
+  font-weight: 800;
+}
+
+.button-active {
+  background-color: #0702D1;
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.button-inactive {
+  background-color: #E4E7FF;
+  color: #0702D1;
+  text-align: center;
+  display: block;
+  padding: 2rem;
+  text-decoration: none; 
+}
+
+a { 
+  color: inherit; 
+  line-height: 2rem;
+  font-size: 1.25rem;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.remove-all-margin-padding {
+  margin:0 ! important;
+  padding:0 ! important;
+}
+
+.small_logo{
+  height: 40px;
+  margin-right: 25px;
+}
+
+span {
+  color: black
+}
+
+hr{ 
+  max-width: 25%; 
+  margin-left:0;
+}
+
+.track-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.speaker-column {
+  padding: 2rem
+}
+
+.speaker-column img {
+  width: 100%;
+  margin: auto;    
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
